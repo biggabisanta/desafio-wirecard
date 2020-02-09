@@ -1,0 +1,23 @@
+{
+  "name": "desafio-wirecard",
+  "version": "1.0.0",
+  "description": "criar uma API de pagamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biggabisanta/desafio-wirecard.git"
+  },
+  "keywords": [
+    "API",
+    "pagamento"
+  ],
+  "author": "Gabrielle R Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biggabisanta/desafio-wirecard/issues"
+  },
+  "homepage": "https://github.com/biggabisanta/desafio-wirecard#readme"
+}

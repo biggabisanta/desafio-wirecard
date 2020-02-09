@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/biggabisanta/desafio-wirecard/issues"
   },
-  "homepage": "https://github.com/biggabisanta/desafio-wirecard#readme"
+  "homepage": "https://github.com/biggabisanta/desafio-wirecard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

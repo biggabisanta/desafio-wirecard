@@ -8,8 +8,14 @@ module.exports = function(app){
 
     app.post('/pagamentos/pagamento', function(req, res){
         const pagamento = req.body;
-        console.log(pagamento);
-        res.send('OK')
+        console.log('processando uma requisicao de um novo pagamento');
+        
+        pagamento.status = 'CRIADO';
+        pagamento.data = new Date; 
+
+
+        res.send(pagamento)
+
     })
 }
 

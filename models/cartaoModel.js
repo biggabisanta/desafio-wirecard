@@ -1,9 +1,9 @@
-const mongoose = riquire('mongoose')
+const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema;
 const cartaoSchema = new Schema({
-    _id: { type: mongoose.Schema.Types.ObjectId,auto: true},
-    nomeDoTitular: {type: String, riquired: true },
+    _id: { type: mongoose.Schema.Types.ObjectId, auto: true},
+    nomeDoTitular: {type: String, required: true },
     numeroDoCartao: {type: Number, required: true},
     dataDeExpericao: {type: Number, required: true},
     numeroCVV: {type: Number, required: true},

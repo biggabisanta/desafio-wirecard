@@ -1,9 +1,10 @@
-const mongoose = riquire('mongoose')
+const mongoose = require('mongoose')
+
 
 const Schema = mongoose.Schema;
 const pagamentoSchema = new Schema({
-    quantidade: {type: String, riquired: true },
-    tipo: {type: String, required: true},
+    valor: {type: String, required: true },
+    tipo: {type: Boolean, required: true},
     cartaoCredito: {type: String, required: true},
 
 });
